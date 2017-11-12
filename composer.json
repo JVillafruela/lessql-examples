@@ -1,0 +1,5 @@
+{
+    "require": {
+        "morris/lessql": "dev-master"
+    }
+}

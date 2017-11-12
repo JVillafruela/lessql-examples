@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6285961b947ba5474c2e0fda6fd4748a",
+    "packages": [
+        {
+            "name": "morris/lessql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/morris/lessql.git",
+                "reference": "585e1881781fbfddc7363094c2f57e6aab4f3763"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/morris/lessql/zipball/585e1881781fbfddc7363094c2f57e6aab4f3763",
+                "reference": "585e1881781fbfddc7363094c2f57e6aab4f3763",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Morris Brodersen",
+                    "homepage": "https://morrisbrodersen.de"
+                }
+            ],
+            "description": "LessQL: The agile PHP ORM alternative",
+            "homepage": "https://github.com/morris/lessql",
+            "keywords": [
+                "database",
+                "notorm",
+                "orm",
+                "pdo",
+                "sql"
+            ],
+            "time": "2016-10-23T12:59:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "morris/lessql": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
